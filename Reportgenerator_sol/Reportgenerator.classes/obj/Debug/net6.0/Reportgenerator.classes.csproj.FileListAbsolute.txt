@@ -1,0 +1,15 @@
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\bin\Debug\net6.0\Reportgenerator.classes.deps.json
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\bin\Debug\net6.0\Reportgenerator.classes.dll
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\bin\Debug\net6.0\Reportgenerator.classes.pdb
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.csproj.AssemblyReference.cache
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.AssemblyInfoInputs.cache
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.AssemblyInfo.cs
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.csproj.CoreCompileInputs.cache
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.dll
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\refint\Reportgenerator.classes.dll
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.pdb
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\ref\Reportgenerator.classes.dll
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\bin\Debug\net6.0\Reportgenerator.classes.exe
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\bin\Debug\net6.0\Reportgenerator.classes.runtimeconfig.json
+C:\Users\atren\OneDrive - Aarhus Universitet\6. semester\SWDesign\Reportgenerator_sol\Reportgenerator.classes\obj\Debug\net6.0\Reportgenerator.classes.genruntimeconfig.cache

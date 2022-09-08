@@ -1,5 +1,4 @@
-﻿using ReportGenerator.classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace ReportGenerator.classes
@@ -10,14 +9,34 @@ namespace ReportGenerator.classes
         SalaryFirst
     }
 
-    public class Print
+    internal class ReportGenerator
     {
         private readonly EmployeeDB _employeeDb;
         private ReportOutputFormatType _currentOutputFormat;
-        void output_report()
+
+
+        public ReportGenerator(EmployeeDB employeeDb)
         {
-            
-    // All employees collected - let's output them
+            if (employeeDb == null) throw new ArgumentNullException("employeeDb");
+            _currentOutputFormat = ReportOutputFormatType.NameFirst;
+            _employeeDb = employeeDb;
+        }
+
+
+        public void CompileReport()
+        {
+            var employees = new List<Employee>();
+            Employee employee;
+
+            _employeeDb.Reset();
+
+            // Get all employees
+            while ((employee = _employeeDb.GetNextEmployee()) != null)
+            {
+                employees.Add(employee);
+            }
+
+            // All employees collected - let's output them
             switch (_currentOutputFormat)
             {
                 case ReportOutputFormatType.NameFirst:
@@ -41,35 +60,6 @@ namespace ReportGenerator.classes
                         Console.WriteLine("------------------");
                     }
                     break;
-            }
-        }
-
-    }
-
-    public class ReportGenerator
-    {
-        private readonly EmployeeDB _employeeDb;
-        private ReportOutputFormatType _currentOutputFormat;
-
-
-        public ReportGenerator(EmployeeDB employeeDb)
-        {
-            if (employeeDb == null) throw new ArgumentNullException("employeeDb");
-            _currentOutputFormat = ReportOutputFormatType.NameFirst;
-            _employeeDb = employeeDb;
-        }
-
-        public void CompileReport()
-        {
-            var employees = new List<Employee>();
-            Employee employee;
-
-            _employeeDb.Reset();
-
-            // Get all employees
-            while ((employee = _employeeDb.GetNextEmployee()) != null)
-            {
-                employees.Add(employee);
             }
         }
 

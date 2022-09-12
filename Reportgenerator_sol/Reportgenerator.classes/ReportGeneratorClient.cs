@@ -16,14 +16,16 @@ namespace ReportGenerator.classes
             var reportGenerator = new ReportGenerator(db);
 
             // Create a default (name-first) report
-            reportGenerator.CompileReport();
+            ReportPrinter printer = new NameFirstReportPrinter();
+            reportGenerator.CompileReport(printer);
 
             Console.WriteLine("");
             Console.WriteLine("");
 
             // Create a salary-first report
-            reportGenerator.SetOutputFormat(ReportOutputFormatType.SalaryFirst);
-            reportGenerator.CompileReport();
+
+            printer = new SalaryFirst();
+            reportGenerator.CompileReport(printer);
         }
     }
 }

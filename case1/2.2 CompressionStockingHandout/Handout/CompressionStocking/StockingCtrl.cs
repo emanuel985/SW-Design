@@ -11,10 +11,24 @@ namespace CompressionStocking
         void StopBtnPushed();
     }
 
+    public class Button_driver : IBtnHandler
+    {
+        public void StartBtnPushed()
+        {
+            Console.WriteLine("Checks if startBtn is pushed");
+        }
+
+        public void StopBtnPushed()
+        {
+            Console.WriteLine("Checks if StopBtn is pushed");
+        }
+    }
+
 
     public class StockingCtrl : IBtnHandler
     {
         private readonly ICompressionCtrl _compressionCtrl;
+        
 
         public StockingCtrl(ICompressionCtrl compressionCtrl)
         {
@@ -35,4 +49,5 @@ namespace CompressionStocking
 
 
     }
-}
+
+

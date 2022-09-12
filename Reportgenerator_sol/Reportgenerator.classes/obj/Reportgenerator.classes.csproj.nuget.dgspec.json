@@ -13,8 +13,12 @@
         "packagesPath": "C:\\Users\\atren\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\atren\\OneDrive - Aarhus Universitet\\6. semester\\SWDesign\\Reportgenerator_sol\\Reportgenerator.classes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\atren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

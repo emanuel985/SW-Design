@@ -5,16 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using ReportGenerator.classes;
 
-namespace Reportgenerator.classes
+namespace ReportGenerator.classes
 {
-    internal class print
+    internal interface ReportPrinter
     {
-       
-        public print(Employee employee)
-        {
-            
-
-        }
-
+        void PrintReport(List<Employee> employeeList);
     }
+    
 }
